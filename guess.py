@@ -4,7 +4,7 @@ random_num = random.randint(1,20)
 name = input('what is your name :')
 choice = input('hello,shall we play a guessing game?')
 if choice in ['y','yes','yup','ok']:
-    num = input('guess a number between 1-20:')
+    num = input('I am thinking of a number between 1 and 20 Take a guess:')
     while guesses < 6:
         num = int(num)
         guesses = guesses + 1
